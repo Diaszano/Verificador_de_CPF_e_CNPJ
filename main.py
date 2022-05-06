@@ -1,7 +1,7 @@
 #-----------------------
 # CLASSE()
 #-----------------------
-class verificadores:
+class Verificadores:
     def __init__(self)->None:
         pass;
     
@@ -36,7 +36,7 @@ class verificadores:
 # M A I N ()
 #-----------------------
 if __name__ == '__main__':
-    verificador = verificadores();
+    verificador = Verificadores();
     verificador.CNPJ();
     verificador.CPF();
 #-----------------------
