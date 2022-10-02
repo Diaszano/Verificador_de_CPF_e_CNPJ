@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "pyVerificadorDocs"
-version = "0.1.0"
+version = "0.2.0"
 description = "Programa para fazer a verificação de documentos nacionais."
 authors = ["Diaszano <lucasdiiassantos@gmail.com>"]
 readme = "README.md"
-packages = [{include = "verificador_de_cpf_e_cnpj"}]
+packages = [{include = "verificadores"}]
 
 
 [tool.poetry.dependencies]

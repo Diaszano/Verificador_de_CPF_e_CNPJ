@@ -9,19 +9,17 @@ $ pip install pyVerificadorDocs
 ```
 
 ```Python
-from asyncio import run
-
-from pyVerificadorDocs import CPF, CNPJ
+from verificadores import CPF, CNPJ
 
 
 async def main():
-    resultado = await CPF('000.000.000-00')
+    resultado = CPF('000.000.000-00')
     print(f'CPF é {resultado}')
-    resultado = await CNPJ('00.000.000/0000-00')
+    resultado = CNPJ('00.000.000/0000-00')
     print(f'CNPJ é {resultado}')
 
 
-run(main())
+main()
 ```
 
 ### O que usamos na infraestrutura?
